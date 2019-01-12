@@ -1,8 +1,8 @@
 Example:
 ```AutoHotkey
-#Include CloudApp.ahk
-
 ; Register your account at https://www.getcloudapp.com/
+
+#Include CloudApp.ahk
 
 ; Login
 api := New CloudApp("your email", "your password")
