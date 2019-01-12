@@ -1,5 +1,3 @@
-# CloudApp.ahk
-
 Example:
 ```AutoHotkey
 #Include CloudApp.ahk
