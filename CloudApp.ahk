@@ -9,7 +9,7 @@
 		ListItems(paramters := "page=1&per_page=5")
 		DeleteItem(url)
 		ViewItem(url)
-		uploadFile(FilePath)
+		UploadFile(FilePath)
 
 	Example:
 		api := New CloudApp("your email", "your password")
@@ -61,7 +61,7 @@ class CloudApp
 		return this.http("GET", url)
 	}
 
-	uploadFile(FilePath) {
+	UploadFile(FilePath) {
 		ret := this.http("GET", "https://my.cl.ly/items/new")
 
 		objParam := ret.params
